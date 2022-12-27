@@ -4,7 +4,6 @@ import Link from 'next/link';
 export default function Home() {
   return (
   <div className="">
-    {/* <NavBar /> */}
     <header className="py-4 bg-black sm:py-6" x-data="{expanded: false}" style={{marginTop:"-60px"}}>
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
@@ -66,7 +65,7 @@ export default function Home() {
 
             <div className="relative md:items-center md:justify-center md:inline-flex group" style={{marginLeft:"100px"}}>
             <div className="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50"></div>
-            <a href="#" title="" className="relative inline-flex items-center justify-center px-6 py-2 text-base font-normal text-white bg-black border border-transparent rounded-full" role="button"> Get Eearly Access - it's free </a>
+            <a href="https://tally.so#tally-open=me5zAq&tally-emoji-text=👋&tally-emoji-animation=wave" title="" className="relative inline-flex items-center justify-center px-6 py-2 text-base font-normal text-white bg-black border border-transparent rounded-full" role="button"> Get Eearly Access - it's free </a>
           </div>
           
           </div>
