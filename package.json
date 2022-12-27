@@ -1,6 +1,12 @@
 {
   "name": "sartify",
   "version": "0.1.0",
+  "author": {
+    "name": "Innocent Charles",
+    "email": "innocentcharles217@gmail.com",
+    "contact": "+255 738 095 412"
+
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
