@@ -57,7 +57,7 @@ export default function Home() {
         <div className="grid items-center grid-cols-1 gap-y-12 lg:grid-cols-2 gap-x-16">
           <div>
           <h2 className="mt-4 max-w-3xl space-y-6 text-gray-400 sm:mt-8 bg-clip-text bg-gradient-to-r from-blue-900 to-purple-400"> Meet, Sartify 👋🏻 :</h2>
-          <h1 className="font-extrabold tracking-tight text-4xl font-medium text-white sm:text-5xl lg:text-5xl xl:text-7xl font-sans ...">The smart HR  workforce software for Africa's businesses</h1>
+          <h1 className="font-extrabold tracking-tight text-4xl font-medium text-white sm:text-5xl lg:text-5xl xl:text-7xl font-sans ...">The smart HR and workforce software for Africa's businesses</h1>
           <p className="mt-4 max-w-3xl space-y-6 text-gray-400 sm:mt-8">HR administration may be tough, but it’s no rocket science. We help great companies in Africa unlock their workforce potential, and effortlessly save 200hrs for efficient and costless talent acquisition, interview, retention, payrolling, staffing, time-off, employee data, organizational development, and HR workflows in one place</p>
           
           <div className="relative mt-8 rounded-full sm:mt-12">
