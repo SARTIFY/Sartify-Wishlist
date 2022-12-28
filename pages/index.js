@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
   <div className="">
-    <header className="py-4 bg-black sm:py-6" x-data="{expanded: false}" style={{marginTop:"-60px"}}>
+    <header className="py-4 bg-black sm:py-6" x-data="{expanded: false}" style={{marginTop:"-75px"}}>
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="shrink-0">
@@ -52,7 +52,7 @@ export default function Home() {
       </div>
     </header>
 
-    <section className="relative py-12 overflow-hidden bg-black sm:pb-16 lg:pb-20 xl:pb-24" style={{marginTop:"-95px"}}>
+    <section className="relative py-12 overflow-hidden bg-black sm:pb-16 lg:pb-20 xl:pb-24" style={{marginTop:"-83px"}}>
       <div className="px-4 mx-auto relativea sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid items-center grid-cols-1 gap-y-12 lg:grid-cols-2 gap-x-16">
           <div>
