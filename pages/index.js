@@ -26,7 +26,7 @@ export default function Home() {
               </span>
             </button> */}
           </div>
-          <nav className="hidden ml-10 space-x-10 lg:ml-20 lg:space-x-12 md:flex md:items-center md:justify-start" style={{marginRight:"500px"}}>
+          <nav className="hidden ml-10 space-x-10 lg:ml-20 lg:space-x-12 md:flex md:items-center md:justify-start" style={{marginRight:"25px"}}>
             <a href="#" title="" class="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Products </a>
             <a href="#" title="" class="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Team </a>
             <a href="#" title="" class="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Contact </a>
