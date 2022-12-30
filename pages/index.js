@@ -9,7 +9,14 @@ export default function Home() {
         <div className="flex items-center justify-between">
           <div className="shrink-0">
             <a href="#" title="" class="flex">
-              <img className="w-auto h-40" src="https://www.innocentcharles.com/assets/img/IMG_20221022_063346_003-removebg-preview%20(1).png" width={1000} height={1000} alt="Sartify Logo" />
+              <Image 
+              className='w-auto h-40'
+              src="/IMG_20221022_063346_003-removebg-preview (1).png"
+              width={1000}
+              height={1000}
+              alt={"sartify log"}
+              priority
+              />
             </a>
           </div>
           <div className="flex md:hidden">
@@ -69,7 +76,6 @@ export default function Home() {
           </div>
           
           </div>
-
           <div className="mt-8 sm:mt-12">
            {/* <p className="text-lg font-normal text-white">Wishlisted by 50+ users</p> */}
            <div className="flex items-center mt-3">
@@ -136,9 +142,22 @@ export default function Home() {
               </svg>
             </div> */}
             <div className="absolute inset-0">
-              <img className="object-cover w-full h-full opacity-90" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png" alt="" />
+              <Image 
+              className='object-cover w-full h-full opacity-90'
+              src="/noise.png"
+              width={100000}
+              height={100000}
+              alt="noise cover"
+              priority
+              />
             </div>
-            <img src="https://www.innocentcharles.com/assets/img/Group%201.png" alt="" />
+            <Image
+            src="/Group 1.png"
+            width={1000}
+            height={1000}
+            alt="front image"
+            priority
+            />
           </div>
         </div>
       </div>
